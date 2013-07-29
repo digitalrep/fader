@@ -1,0 +1,67 @@
+#fader
+{
+  background: #293033;
+  height: 424px;
+  width: 640px;
+  padding: 20px;
+}
+#fader img
+{
+  border: 0;
+}
+#fader_img
+{
+  height: 384px;
+  width: 640px;
+  box-shadow: 0 0 4px #000;
+  background: #000;
+}
+#fader_img img
+{
+  height: 384px;
+  width: 640px;
+  position: absolute;
+}
+#fader_left,
+#fader_right,
+#fader_bips
+{
+  margin-top: 10px;
+  float: left;
+  width: 10%;
+  cursor: pointer;
+}
+#fader_right
+{
+  text-align: right;
+}
+#fader_bips
+{
+  margin-top: 20px;
+  width: 80%;
+}
+#fader_bips ul
+{
+  margin: 0;
+  padding: 0;
+}
+#fader_bips ul li
+{
+  list-style-type: none;
+  display: inline;
+}
+.bip,
+.bip_over
+{
+  height: 17px;
+  width: 17px;
+  background: #1982d1;
+  float: left;
+  margin-right: 8px;
+  box-shadow: 0 0 4px #000;
+}
+.bip_over,
+.bip:hover
+{
+  background: #fff;
+}

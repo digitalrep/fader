@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/fader.css" />
+  <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type='text/javascript' src='js/fader.js'></script>
+  <script type='text/javascript'>
+  $(function()
+  {
+    var fader_properties = 
+	{
+	  autoplay: true,
+	  auto_speed: 5000,
+	  fade_speed: 500,
+	  width: 640,
+	  height: 424
+	};
+	$('#slider').begin(fader_properties);
+  });
+  </script>
+</head>
+<body>
+  <div id="fader">
+    <div id="fader_img">
+	  <img src="images/Lighthouse.jpg">
+	  <img src="images/Tulips.jpg">
+	  <img src="images/Penguins.jpg">
+	</div>
+	<div id="fader_left">
+	  <a href="#">
+	    <img src="fader_images/fader_left.png" id="sl">
+		<img src="fader_images/fader_left2.png" id="sl2">
+	  </a>
+	</div>
+	<div id="fader_bips">
+	</div>
+	<div id="fader_right">
+	  <a href="#">
+		<img src="fader_images/fader_right.png" id="sr"> 
+		<img src="fader_images/fader_right2.png" id="sr2"> 
+	  </a>
+    </div>
+  </div>
+</body>
+</html>
