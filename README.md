@@ -6,12 +6,12 @@ Included Files:
 <table>
   <tr><th>Description</th><th>File</th></tr>
   <tr><td>Example usage:</td><td>example.htm</td></tr>
-  <tr><td>CSS:</td><td>css/slider.css</td></tr>
-  <tr><td>Javascript:</td><td>js/slider.js</td></tr>
-  <tr><td>Left Image:</td><td>slider_images/slider_left.png</td></tr>
-  <tr><td>Left Image (Over):</td><td>slider_ images/slider_left2.png</td></tr>
-  <tr><td>Right Image:</td><td>slider_images/slider_right.png</td></tr>
-  <tr><td>Right Image (Over):</td><td>vslider_images/slider_right2.png</td></tr>
+  <tr><td>CSS:</td><td>css/fader.css</td></tr>
+  <tr><td>Javascript:</td><td>js/fader.js</td></tr>
+  <tr><td>Left Image:</td><td>fader_images/fader_left.png</td></tr>
+  <tr><td>Left Image (Over):</td><td>fader_ images/fader_left2.png</td></tr>
+  <tr><td>Right Image:</td><td>fader_images/fader_right.png</td></tr>
+  <tr><td>Right Image (Over):</td><td>fader_images/fader_right2.png</td></tr>
   <tr><td>Fader Images:</td><td>images/</td></tr>
 </table>
 
@@ -22,15 +22,15 @@ Unzip the files to your htdocs folder on your web server.
 
 Inside your html document, in the head section, include the css file (before the javascript):
 ```
-<link rel="stylesheet" type="text/css" media="screen" href="css/slider.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/fader.css" />
 ```
 Next, inside your html document's head section, include the jquery javascript source file:
 ```
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
 ```
-Also include the slider javascript source file: 
+Also include the fader javascript source file: 
 ```
-<script type="text/javascript" src="js/slider.js"></script> 
+<script type="text/javascript" src="js/fader.js"></script> 
 ```
 Include this code next, and put your own values in to specify options: 
 ```
@@ -86,7 +86,7 @@ Finally, in your html, include this code:
 Note that:
 ----------
 
-Replace the contents of div#slider_img with the locations of the images you want to display in the slider
+Replace the contents of div#fader_img with the locations of the images you want to display in the slider
 
 Supported Browsers:
 -------------------
