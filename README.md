@@ -55,8 +55,8 @@ Note that:
 - Autoplay can be true or false, depending on whether you want the fader to autoplay
 - Auto_speed is the speed at which the image changes during autoplay; note that 5000 = 5 seconds
 - Fade_speed is the speed at which the images fade in/out; 500 = half a second
-- Width is the width of the slider; the images inside the slider will be this width
-- Height is the height of the slider; the images inside the slider will be of slightly less tall than this
+- Width is the width of the fader; the images inside the fader will be this width
+- Height is the height of the fader; the images inside the fader will be of slightly less tall than this
 
 Finally, in your html, include this code:
 -----------------------------------------
@@ -86,7 +86,7 @@ Finally, in your html, include this code:
 Note that:
 ----------
 
-Replace the contents of div#fader_img with the locations of the images you want to display in the slider
+Replace the contents of div#fader_img with the locations of the images you want to display in the fader
 
 Supported Browsers:
 -------------------
