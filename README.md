@@ -88,6 +88,10 @@ Note that:
 
 Replace the contents of div#fader_img with the locations of the images you want to display in the fader
 
+Live demo:
+----------
+http://www.digitalrep.info/samples/view/fader
+
 Supported Browsers:
 -------------------
 
