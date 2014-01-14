@@ -90,7 +90,7 @@ Replace the contents of div#fader_img with the locations of the images you want 
 
 Live demo:
 ----------
-http://www.digitalrep.info/samples/view/fader
+http://www.digitalrep.info/samples/fader.php
 
 Supported Browsers:
 -------------------
